@@ -61,6 +61,23 @@ body {
 
     box-shadow: 0 4px 15px rgba(139, 92, 246, 0.3);
 }
+/* =========================
+      ROLE BADGE
+========================= */
+.role-badge {
+    display: inline-block;
+    background-color: #7c3aed; /* accent violet */
+    color: #ffffff;
+    padding: 6px 14px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 20px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    
+    box-shadow: 0 4px 10px rgba(124, 58, 237, 0.25);
+    margin-top: 10px;
+}
 
 /* =========================
    SECTION TITLE
