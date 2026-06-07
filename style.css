@@ -91,9 +91,19 @@ body {
     font-size: 20px !important;
     line-height: 1.8;
 }
+
+.card h3 {
+    font-size: 26px;
+    color: #a78bfa;
+}
+
+.card h4 {
+    font-size: 26px;
+    color: #d8b4fe;
+}
+
 .card h3,
-.card h4,
-{
+.card h4 {
     line-height: 1.6;
 }
 .card h3 { letter-spacing: 0.5px; }
@@ -104,12 +114,12 @@ body {
 ========================= */
 
 .card {
-    width: 90%;
-    max-width: 1200px;
-    min-height: 350px;
+    width: 85%;
+    max-width: 900px;
+    min-height: auto;
 
-    margin: 0 auto 30px auto;
-    padding: 50px;
+    margin: 0 auto 20px auto;
+    padding: 25px;
 
     background: #1a1a2e;
     border-radius: 12px;
@@ -233,20 +243,24 @@ body {
 .contact-btn {
     display: flex;
     align-items: center;
-    gap: 12px;
+    justify-content: center;
 
-    padding: 16px 30px;
-    font-size: 18px;
+    gap: 14px;
 
-    border-radius: 12px;
+    padding: 18px 40px;
+    font-size: 20px;
+
+    min-width: 220px;
+
+    border-radius: 14px;
     font-weight: bold;
 
     transition: 0.3s;
 }
 
 .contact-btn img {
-    width: 28px;
-    height: 28px;
+    width: 30px;
+    height: 30px;
 }
 
 .facebook {
@@ -290,5 +304,11 @@ body {
 @media (max-width: 600px) {
     .about-pic {
         width: 220px;
+    }
+}
+@media (max-width: 600px) {
+    .contact-btn {
+        width: 90%;
+        font-size: 18px;
     }
 }
