@@ -29,7 +29,37 @@ body {
     font-size: 1.8rem;
     color: #c4b5fd;
 }
+/* EACH SECTION LOOKS LIKE A PAGE */
+.page {
+    min-height: 100vh;
+    padding: 100px 20px 40px;
+    text-align: center;
+}
 
+/* CARDS */
+.card {
+    background: #1a1a2e;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 12px;
+    border-left: 4px solid #8b5cf6;
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #6d28d9;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    background: #8b5cf6;
+}
 /* CARDS */
 .card {
     background: #1a1a2e;
