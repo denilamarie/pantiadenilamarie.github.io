@@ -21,6 +21,7 @@ body {
     color: #d1d5db;
 }
 
+
 /* CARDS */
 .card {
     background: #1a1a2e;
@@ -131,4 +132,17 @@ li {
 .telegram:hover {
     background: #1b7fb0;
     transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 80%;
+        text-align: center;
+    }
 }
