@@ -88,6 +88,32 @@ body {
    text-align: center;
 }
 /* =========================
+        SKILL
+========================= */
+.skill-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.skill-card {
+    width: 200px;
+    height: 120px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #151d35;
+
+    border: 2px solid #7c6cff;
+    border-radius: 30px;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+/* =========================
    CARD TEXT STYLING
 ========================= */
 
