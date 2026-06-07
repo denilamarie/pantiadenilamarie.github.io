@@ -85,32 +85,38 @@ body {
 .card h3 {
     color: #a78bfa;
 }
-
-.certificate {
-    margin: 20px 0;
-    text-align: center;
+.cert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
-.certificate img {
-    width: 100%;
-    max-width: 500px;
-    
-    border-radius: 10px;
+.cert-card {
+    background: #1a1a2e;
+    padding: 15px;
+    border-radius: 12px;
 
-    border: 2px solid #8b5cf6;
-
-    box-shadow: 0 4px 15px rgba(139, 92, 246, 0.3);
+    border-left: 4px solid #8b5cf6;
 
     transition: 0.3s;
 }
 
-.certificate img:hover {
-    transform: scale(1.03);
+.cert-card:hover {
+    transform: translateY(-5px);
 }
 
-.certificate p {
+.cert-card img {
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid #8b5cf6;
+}
+
+.cert-card p {
     margin-top: 10px;
     color: #d1d5db;
+    font-size: 14px;
 }
 
 /* LISTS */
@@ -185,3 +191,4 @@ li {
 
 scroll-behavior: smooth;
 min-height: 100vh;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
