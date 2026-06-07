@@ -15,9 +15,19 @@ body {
 ========================= */
 
 .hero {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
     text-align: center;
-    padding: 80px 20px;
+
     background: linear-gradient(135deg, #1a1a2e, #0f0f1a);
+
+    padding: 20px;
 }
 
 .hero h1 {
@@ -29,10 +39,14 @@ body {
     color: #d1d5db;
 }
 .hero img {
-    width: 300px;
+    width: 1200px;
     height: auto;
 }
-
+.scroll-down {
+    margin-top: 30px;
+    color: #c4b5fd;
+    font-size: 1.2rem;
+}
 /* =========================
    SECTION TITLE
 ========================= */
@@ -65,7 +79,7 @@ body {
     min-height: 350px;
 
     margin: 0 auto 30px auto;
-    padding: 40px;
+    padding: 50px;
 
     background: #1a1a2e;
     border-radius: 12px;
@@ -105,8 +119,39 @@ body {
 }
 
 /* =========================
-   CERTIFICATES GRID
+   CERTIFICATES  FEATURED
 ========================= */
+
+.cert-featured {
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+    text-align: center;
+
+    background: #1a1a2e;
+    padding: 20px;
+    border-radius: 12px;
+
+    border-left: 4px solid #8b5cf6;
+    box-shadow: 0 4px 15px rgba(139, 92, 246, 0.3);
+}
+
+.cert-featured img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cert-featured p {
+    margin-top: 15px;
+    color: #c4b5fd;
+    font-size: 16px;
+}
+
+/* =========================
+   CERTIFICATES  GRID
+========================= */
+
 
 .cert-grid {
     display: grid;
