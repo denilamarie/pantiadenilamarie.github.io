@@ -47,6 +47,20 @@ body {
     color: #c4b5fd;
     font-size: 1.2rem;
 }
+
+/* =========================
+   ABOUT ME
+========================= */
+.about-pic {
+    width: 350px;
+    height: auto;
+
+    border-radius: 15px;
+    border: 3px solid #8b5cf6;
+
+    box-shadow: 0 4px 15px rgba(139, 92, 246, 0.3);
+}
+
 /* =========================
    SECTION TITLE
 ========================= */
@@ -265,5 +279,10 @@ li {
     .btn {
         width: 80%;
         text-align: center;
+    }
+}
+@media (max-width: 600px) {
+    .about-pic {
+        width: 220px;
     }
 }
